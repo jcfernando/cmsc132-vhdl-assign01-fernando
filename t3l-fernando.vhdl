@@ -8,6 +8,6 @@ architecture priority of alarm_encoder is
 begin
 	process(in1,in2,in3,out1,out2,out3) is
 		begin
-			alarm <= (in1 or in2 or in3) AND (out1 or out2 or out3);
+			alarm <= (in1 or in2 or in3) AND (out1 or out2 or out3); --boolean function for generating the value of alarm
 	end process;
 end architecture priority;

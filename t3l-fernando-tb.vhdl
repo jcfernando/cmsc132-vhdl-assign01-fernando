@@ -85,13 +85,4 @@ begin --architecture
 	end process;
 end architecture priority_tb;
 
---CHOICES:
---take note, some other answers to the blanks are not included below:
-
---1) component priority_encoder_4_2 port map(valid, encoded, i3,i2,i1,i0);
---2) tb_arch
---3) tb_priority_encoder_4_2
---4) port (valid: out std_logic; encoded: out std_logic_vector(1 downto 0); i3,i2,i1,i0: in std_logic );
-
-
 
